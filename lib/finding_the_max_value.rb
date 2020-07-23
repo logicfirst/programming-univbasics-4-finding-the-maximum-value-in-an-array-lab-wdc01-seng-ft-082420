@@ -2,8 +2,7 @@
 def find_max_value(array)
   
   pop = []
-  array.sort 
-  pop << array.pop
+  pop << (array.sort).pop
   return pop
   
 end
